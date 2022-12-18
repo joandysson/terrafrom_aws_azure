@@ -1,5 +1,6 @@
 resource "aws_s3_bucket" "b_tf" {
   bucket = "my-bucket-tf-0001-remote-state"
+  force_destroy = true
 }
 
 resource "aws_s3_bucket_versioning" "t_v" {
