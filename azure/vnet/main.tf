@@ -12,7 +12,7 @@ terraform {
     resource_group_name  = "remote-state"
     storage_account_name = "firststorageaccou"
     container_name       = "images"
-    key                  = "azure-nvet/terraform.tfstate"
+    key                  = "azure-vnet/terraform.tfstate"
   }
 }
 
